@@ -5,5 +5,7 @@
 <li>Provide coordinates:<br />$gmap-&gt;timeWithCoordinates(array($source_lat,$source_lon), array(array(dest_lat1, dest_lon1), array(dest_lat2, dest_lon2)));<br /><br /></li>
 <li>Get the duration text.<br />$gmap-&gt;getDurationText(0,0);<br />//== First argument is source, since the method created is always using one source coordinate set, so this will always be 0 (for now), other parameter is destination index, in order you provided.</li>
 </ul>
+<p><strong>Installation</strong></p>
+<p>composer require vivdub/distmatrix</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
