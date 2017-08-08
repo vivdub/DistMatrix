@@ -8,5 +8,10 @@
             "email": "vivdub@yandex.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+      	"Vivdub\\DistMatrix\\":"vendor/vivdub/distmatrix"
+      }
+   }    
 }
