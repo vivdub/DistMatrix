@@ -6,6 +6,10 @@
 <li>Get the duration text.<br />$gmap-&gt;getDurationText(0,0);<br />//== First argument is source, since the method created is always using one source coordinate set, so this will always be 0 (for now), other parameter is destination index, in order you provided.</li>
 </ul>
 <p><strong>Installation</strong></p>
-<p>composer require vivdub/distmatrix:dev-master</p>
+<ol>
+<li>composer require vivdub/distmatrix:dev-master<br /><br /></li>
+<li>Once done add following to composer.json psr-4<br />"Vivdub\\DistMatrix\\":"vendor/vivdub/distmatrix"<br /><br /></li>
+<li>Run composer update</li>
+</ol>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
